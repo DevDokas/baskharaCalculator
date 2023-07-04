@@ -4,7 +4,16 @@ import java.util.Scanner;
 
 public class Main {
 
+    static double calculate(double A, double B, double C) {
+        double delta = Math.pow(B, 2)-4*A*C;
+        double result = B;
+
+        return result;
+    }
+
     public static void main(String[] args) {
+
+
 
         /*
         static boolean checkRes(String res) {
